@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainController">
+   <children>
+      <VBox prefHeight="124.0" prefWidth="199.0">
+         <children>
+            <HBox alignment="TOP_CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true" HBox.hgrow="ALWAYS">
+                     <image>
+                        <Image url="https://digital.ai/sites/default/files/pictures/styles/maxwidth_300/public/pt_logos/stack-overflow.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button mnemonicParsing="false" onAction="#showPhoto" prefHeight="25.0" prefWidth="199.0" text="Add photo" textAlignment="CENTER" GridPane.rowIndex="2" />
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
